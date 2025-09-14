@@ -1,6 +1,4 @@
 import streamlit as st
-st.set_option("server.maxUploadSize", 200)  # in MB
-
 import io
 import math
 from pathlib import Path
