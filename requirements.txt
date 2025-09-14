@@ -1,5 +1,9 @@
-streamlit==1.37.1
+pip==24.0
+setuptools<70
+wheel
+numpy==1.23.5
 pandas==1.5.3
 xlrd==1.2.0
 openpyxl==3.1.5
 xlsxwriter==3.2.0
+streamlit==1.37.1
