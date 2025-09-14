@@ -5,15 +5,6 @@ import streamlit as st
 
 # your module with generate_repacking_plan(...)
 import repacking_schedule as rs
-import sys, xlrd, openpyxl, xlsxwriter
-import streamlit as st, pandas as pd, numpy as np
-with st.expander("Debug: environment", expanded=True):
-    st.write("Python:", sys.version)
-    st.write("pandas:", pd.__version__)
-    st.write("numpy:", np.__version__)
-    st.write("xlrd:", xlrd.__version__)
-    st.write("openpyxl:", openpyxl.__version__)
-    st.write("xlsxwriter:", xlsxwriter.__version__)
 
 
 st.set_page_config(page_title="Repacking Planner", layout="centered")
